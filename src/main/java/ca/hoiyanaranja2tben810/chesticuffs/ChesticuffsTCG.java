@@ -1,5 +1,6 @@
 package ca.hoiyanaranja2tben810.chesticuffs;
 
+import ca.hoiyanaranja2tben810.chesticuffs.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class ChesticuffsTCG implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Chesticuffs by HoiyaNaranja & 2tben810 finished initializing");
+		ModBlocks.registerModBlocks();
 	}
 }
