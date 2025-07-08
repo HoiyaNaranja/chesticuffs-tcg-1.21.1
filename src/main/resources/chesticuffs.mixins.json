@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "ca.hoiyanaranja2tben810.chesticuffs.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
